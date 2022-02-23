@@ -10,8 +10,6 @@ export default (fn) => {
     const { question, correctAnswer } = fn();
     console.log(`Question: ${question}`);
     const answer = readline.question(`Your answer: `);
-    console.dir(answer);
-    console.dir(correctAnswer);
     if (answer !== correctAnswer) {
       console.log(
         `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'`
