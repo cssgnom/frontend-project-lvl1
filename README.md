@@ -26,7 +26,7 @@
 
 [![asciicast](https://asciinema.org/a/SevoxeVmPD3Nr2R0TQI9bOYr3.svg)](https://asciinema.org/a/SevoxeVmPD3Nr2R0TQI9bOYr3)
 
-### Brain Even
+### Brain Calc
 
 #### Игра: "Калькулятор"
 
@@ -35,3 +35,13 @@
 Пользователю показывается случайное математическое выражение, например `35 + 16`, которое нужно вычислить и записать правильный ответ.
 
 [![asciicast](https://asciinema.org/a/cVs6UsNrrrGCGbn3JgymUDQFC.svg)](https://asciinema.org/a/cVs6UsNrrrGCGbn3JgymUDQFC)
+
+### Brain gcd
+
+#### Игра: "НОД"
+
+`make brain-gcd`
+
+Суть игры в следующем: пользователю показывается два случайных числа, например, `25 50`. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+[![asciicast](https://asciinema.org/a/Fxr2knyx3b2wWj4yhMuWBHgx2.svg)](https://asciinema.org/a/Fxr2knyx3b2wWj4yhMuWBHgx2)
