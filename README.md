@@ -45,3 +45,13 @@
 Суть игры в следующем: пользователю показывается два случайных числа, например, `25 50`. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
 [![asciicast](https://asciinema.org/a/Fxr2knyx3b2wWj4yhMuWBHgx2.svg)](https://asciinema.org/a/Fxr2knyx3b2wWj4yhMuWBHgx2)
+
+### Brain prime
+
+#### Игра "Простое ли число?"
+
+`make brain-prime`
+
+Суть игры в следующем: пользователю показывается случайное число. Пользователь должен вычислить и ввести простое оно или нет.
+
+[![asciicast](https://asciinema.org/a/wrXAb86T9t35vEJEdf7vFoNwf.svg)](https://asciinema.org/a/wrXAb86T9t35vEJEdf7vFoNwf)
