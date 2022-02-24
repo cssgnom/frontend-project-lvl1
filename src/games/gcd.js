@@ -2,8 +2,13 @@
 import { getRandom, gcd } from "../utilites.js";
 import run from "../index.js";
 
-const brainGcd = (obj = { min: 1, max: 100, count: 3 }) => {
-  const { min, max, count } = obj;
+const brainGcd = () => {
+  const defaultConfig = {
+    min: 10,
+    max: 40,
+    count: 3,
+  };
+  const { min, max, count } = defaultConfig;
   const greetingMessage = "Find the greatest common divisor of given numbers.";
   const firstNumber = getRandom(min, max);
   const secondNumber = getRandom(min, max);

@@ -2,8 +2,13 @@
 import { getRandom, isEven } from "../utilites.js";
 import run from "../index.js";
 
-const brainEven = (obj = { min: 0, max: 100, count: 3 }) => {
-  const { min, max, count } = obj;
+const brainEven = () => {
+  const defaultConfig = {
+    min: 1,
+    max: 100,
+    count: 3,
+  };
+  const { min, max, count } = defaultConfig;
   const greetingMessage = 'Answer "yes" if number even otherwise answer "no".';
   const number = getRandom(min, max);
   const correctAnswer = ((n) => (isEven(n) ? "yes" : "no"))(number);
