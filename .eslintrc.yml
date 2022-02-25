@@ -2,8 +2,8 @@ env:
   node: true,
 
 extends:
-  - "airbnb-base"
-  - "prettier"
+  - 'airbnb-base'
+  - 'prettier'
 
 parserOptions:
   ecmaVersion: latest
@@ -14,4 +14,4 @@ rules:
     - error
     - ignorePackages
     - js: always
-  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
+  no-underscore-dangle: [2, { 'allow': ['__filename', '__dirname'] }]

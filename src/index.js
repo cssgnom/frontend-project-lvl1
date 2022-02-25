@@ -1,9 +1,9 @@
-import readline from "readline-sync";
+import readline from 'readline-sync';
 
 export default (fn) => {
   const { greetingMessage, count } = fn();
-  console.log("Welcome to the Brain Games!");
-  const name = readline.question("May I have your name?: ");
+  console.log('Welcome to the Brain Games!');
+  const name = readline.question('May I have your name?: ');
   console.log(`Hello, ${name}!`);
   console.log(greetingMessage);
   for (let i = 0; i < count; i += 1) {
