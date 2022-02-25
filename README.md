@@ -46,6 +46,16 @@
 
 [![asciicast](https://asciinema.org/a/Fxr2knyx3b2wWj4yhMuWBHgx2.svg)](https://asciinema.org/a/Fxr2knyx3b2wWj4yhMuWBHgx2)
 
+### Brain progression
+
+#### Игра "Арифметическая прогрессия"
+
+`make brain-progression`
+
+Нужно определить пропущеное число арифметической прогресии.
+
+[![asciicast](https://asciinema.org/a/RIaI0U4SqWP4WzRNj89eCVlcr.svg)](https://asciinema.org/a/RIaI0U4SqWP4WzRNj89eCVlcr)
+
 ### Brain prime
 
 #### Игра "Простое ли число?"
