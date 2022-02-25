@@ -7,8 +7,13 @@ const mathOperations = {
   "*": (a, b) => String(a * b),
 };
 
-const brainCalculator = (obj = { min: 0, max: 50, count: 3 }) => {
-  const { min, max, count } = obj;
+const brainCalculator = () => {
+  const defaultConfig = {
+    min: 0,
+    max: 50,
+    count: 3,
+  };
+  const { min, max, count } = defaultConfig;
   const greetingMessage = "What is the result of the expression?";
   const operators = Object.keys(mathOperations);
   const firstNumber = getRandom(min, max);
