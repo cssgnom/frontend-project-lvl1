@@ -1,9 +1,11 @@
+plugins:
+  - jest
+
 env:
-  node: true,
+  node: true
 
 extends:
   - 'airbnb-base'
-  - 'prettier'
 
 parserOptions:
   ecmaVersion: latest
@@ -14,5 +16,4 @@ rules:
     - error
     - ignorePackages
     - js: always
-  no-underscore-dangle: [2, { 'allow': ['__filename', '__dirname'] }]
-  object-curly-newline: ['error', { 'multiline': true }]
+  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]

@@ -9,15 +9,13 @@ export default (fn) => {
   for (let i = 0; i < count; i += 1) {
     const { question, correctAnswer } = fn();
     console.log(`Question: ${question}`);
-    const answer = readline.question(`Your answer: `);
+    const answer = readline.question('Your answer: ');
     if (answer !== correctAnswer) {
-      console.log(
-        `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'`
-      );
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'`);
       console.log(`Let's try again, ${name}!`);
       return;
     }
-    console.log(`Correct!`);
+    console.log('Correct!');
   }
   console.log(`Congratulations, ${name}!`);
 };

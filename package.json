@@ -36,6 +36,7 @@
     "eslint-plugin-import": "^2.25.4"
   },
   "prettier": {
+    "printWidth": 95,
     "singleQuote": true,
     "semi": true,
     "trailingComma": "es5",

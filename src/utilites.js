@@ -2,8 +2,7 @@
 const gcd = (a, b) => (!b ? a : gcd(b, a % b));
 
 // Generates a random number between min and max.
-const getRandom = (min, max) =>
-  Math.floor(min + Math.random() * (max + 1 - min));
+const getRandom = (min, max) => Math.floor(min + Math.random() * (max + 1 - min));
 
 // Checks if a number is an even number.
 const isEven = (number) => number % 2 === 0;
@@ -17,4 +16,9 @@ const isPrime = (num) => {
   }
   return num > 1;
 };
-export { isEven, getRandom, gcd, isPrime };
+export {
+        isEven,
+        getRandom,
+        gcd,
+        isPrime
+       };
