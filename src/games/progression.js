@@ -15,7 +15,7 @@ const brainProgression = () => {
   const step = getRandom(min, max);
   const progression = Array.from(
     { length: getRandom(minLength, maxLength) },
-    (_, i) => start + i * step
+    (_, i) => start + i * step,
   );
   const randomIndex = getRandom(0, progression.length - 1);
   const correctAnswer = `${progression.at(randomIndex)}`;

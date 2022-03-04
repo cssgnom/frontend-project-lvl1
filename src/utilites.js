@@ -17,8 +17,8 @@ const isPrime = (num) => {
   return num > 1;
 };
 export {
-        isEven,
-        getRandom,
-        gcd,
-        isPrime
-       };
+  isEven,
+  getRandom,
+  gcd,
+  isPrime,
+};
