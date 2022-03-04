@@ -6,7 +6,7 @@ const brainProgression = () => {
     min: 1,
     max: 10,
     progressLength: { min: 5, max: 10 },
-    count: 3
+    count: 3,
   };
   const { min, max, count } = defaultConfig;
   const { min: minLength, max: maxLength } = defaultConfig.progressLength;
@@ -21,7 +21,12 @@ const brainProgression = () => {
   const correctAnswer = `${progression.at(randomIndex)}`;
   progression[randomIndex] = '..';
   const question = progression.join(' ');
-  return { greetingMessage, question, correctAnswer, count };
+  return {
+    greetingMessage,
+    question,
+    correctAnswer,
+    count,
+  };
 };
 
 export default () => {

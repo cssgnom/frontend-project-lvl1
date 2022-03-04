@@ -4,14 +4,14 @@ import run from '../index.js';
 const mathOperations = {
   '+': (a, b) => String(a + b),
   '-': (a, b) => String(a - b),
-  '*': (a, b) => String(a * b)
+  '*': (a, b) => String(a * b),
 };
 
 const brainCalculator = () => {
   const defaultConfig = {
     min: 0,
     max: 50,
-    count: 3
+    count: 3,
   };
   const { min, max, count } = defaultConfig;
   const greetingMessage = 'What is the result of the expression?';
@@ -21,7 +21,12 @@ const brainCalculator = () => {
   const operator = operators.at(getRandom(0, operators.length - 1));
   const correctAnswer = mathOperations[operator](firstNumber, secondNumber);
   const question = `${firstNumber} ${operator} ${secondNumber}`;
-  return { greetingMessage, question, correctAnswer, count };
+  return {
+    greetingMessage,
+    question,
+    correctAnswer,
+    count,
+  };
 };
 
 export default () => {
